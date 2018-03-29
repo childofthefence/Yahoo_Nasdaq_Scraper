@@ -1,0 +1,23 @@
+## Crypto - Scrape from historical data tab
+
+# Components gives a list, for instance in NASDAQ: https://finance.yahoo.com/quote/%5EIXIC/components?p=%5EIXIC
+# There is LTEA, NRCIP, FEYE, JIVE, etc, and each are given in
+# NASDAQ summary:  https://finance.yahoo.com/quote/%5EIXIC?p=%5EIXIC
+# NASDAQ Components: https://finance.yahoo.com/quote/%5EIXIC/components?p=%5EIXIC
+#
+# If volume > 10,000 (scrape volume from Components page)
+# keep Symbol and link from symbol in a list
+# EG NASDAQ FEYE (FireEye): https://finance.yahoo.com/quote/FEYE?p=FEYE
+# FireEye historical data:  https://finance.yahoo.com/quote/FEYE/history?p=FEYE
+# EXAC:  https://finance.yahoo.com/quote/EXAC?p=EXAC
+# EXAC historical data:  https://finance.yahoo.com/quote/EXAC/history?p=EXAC
+
+*BTC-USD==https://finance.yahoo.com/quote/BTC-USD?p=BTC-USD,https://finance.yahoo.com/quote/BTC-USD/history?p=BTC-USD
+*ETH-USD==https://finance.yahoo.com/quote/ETH-USD?p=ETH-USD,https://finance.yahoo.com/quote/ETH-USD/history?p=ETH-USD
+*XRP-USD==https://finance.yahoo.com/quote/XRP-USD?p=XRP-USD,https://finance.yahoo.com/quote/XRP-USD/history?p=XRP-USD
+*BCH-USD==https://finance.yahoo.com/quote/BCH-USD?p=BCH-USD,https://finance.yahoo.com/quote/BCH-USD/history?p=BCH-USD
+
+*FEYE==https://finance.yahoo.com/quote/FEYE/?p=FEYE,https://finance.yahoo.com/quote/FEYE/history?p=FEYE
+*IBKC==https://finance.yahoo.com/quote/IBKC/?p=IBKC,https://finance.yahoo.com/quote/IBKC/history?p=IBKC
+*FNJN==https://finance.yahoo.com/quote/FNJN/?p=FNJN,https://finance.yahoo.com/quote/FNJN/history?p=FNJN
+*OPTT==https://finance.yahoo.com/quote/OPTT/?p=OPTT,https://finance.yahoo.com/quote/OPTT/history?p=OPTT

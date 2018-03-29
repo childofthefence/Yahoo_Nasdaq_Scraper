@@ -1,0 +1,6 @@
+2018-03-29 19:13:56,720 -StocksFromYahooClass-Start of main method
+2018-03-29 19:13:56,720 -StocksFromYahooClass-open_and_find_sources called
+2018-03-29 19:13:59,401 -StocksFromYahooClass-display_urls called
+2018-03-29 19:13:59,402 -StocksFromYahooClass-open_and_find_sources called
+2018-03-29 19:14:05,577 -StocksFromYahooClass-display_history_pages called
+2018-03-29 19:14:05,577 -StocksFromYahooClass-open_and_find_sources called
