@@ -1,9 +1,11 @@
 #!/usr/bin/env python
 
-from LoadURLS import StocksFromYahooNasdaqAndCrypto
-import re
+import os
 import configparser
 import logging
+import requests
+from sys import platform
+from datetime import datetime
 
 class StockScraper:
 
@@ -23,7 +25,7 @@ class StockScraper:
 			for sections in self.config.options(values):
 				self.config_dict[sections] = self.config.get(values, sections)
 				
-			print(self.config_dict['source_file'])
+			logging.debug('Loaded properties into dictionary')
 				
 		except FileNotFoundError:
 			
@@ -36,7 +38,44 @@ class StockScraper:
 		except ValueError:
 			
 			logging.error('Value error')
-				
+	
+	def connect_to_nasdaq(self):
+	
+		today = datetime.today()
+		url = self.config_dict['nasdaq_csv']
+		nasdaq_req = requests.get(url)
+		directory = self.create_save_directory()
+		open_location = directory + 'companylist' + str(datetime.today().strftime('%Y-%m-%d')) + '.csv'
 		
+		file = open(open_location, 'w+')
 		
+		for stuff in nasdaq_req.iter_content(10000):
+		
+			file.write(stuff.decode('UTF-8'))
+			
+		file.close()
+	
+	#def input_stock_names_into_list(self):
+
+	def create_save_directory(self):
+	
+		current_dir = os.getcwd()
+		new_dir = self.config_dict['nasdaq_dir']
+		
+		if platform == 'linux' or platform == 'linux2' or platform == 'darwin':
+			
+			add_slash = '/'
+			
+		else:
+			
+			add_slash = '\\'
+			
+		directory = os.path.join(current_dir, new_dir) + add_slash
+		if not os.path.exists(directory):
+			os.mkdir(directory)
+		
+		return directory
+	
+	
 StockScraper.load_properties_from_section(StockScraper(), 'Sources')
+StockScraper.connect_to_nasdaq(StockScraper())

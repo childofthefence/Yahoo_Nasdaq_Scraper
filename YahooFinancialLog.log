@@ -1,40 +1,65 @@
-2018-03-29 19:13:56,720 -StocksFromYahooClass-Start of main method
-2018-03-29 19:13:56,720 -StocksFromYahooClass-open_and_find_sources called
-2018-03-29 19:13:59,401 -StocksFromYahooClass-display_urls called
-2018-03-29 19:13:59,402 -StocksFromYahooClass-open_and_find_sources called
-2018-03-29 19:14:05,577 -StocksFromYahooClass-display_history_pages called
-2018-03-29 19:14:05,577 -StocksFromYahooClass-open_and_find_sources called
-2018-03-29 19:36:46,441 - StocksFromYahooClass - Start of main method
-2018-03-29 19:36:46,445 - StocksFromYahooClass - open_and_find_sources called
-2018-03-29 19:43:03,908 - StocksFromYahooClass - Start of main method
-2018-03-29 19:43:03,915 - StocksFromYahooClass - open_and_find_sources called
-2018-03-29 19:43:06,586 - StocksFromYahooClass - display_urls called
-2018-03-29 19:43:06,587 - StocksFromYahooClass - open_and_find_sources called
-2018-03-29 19:43:14,295 - StocksFromYahooClass - display_history_pages called
-2018-03-29 19:43:14,295 - StocksFromYahooClass - open_and_find_sources called
-2018-03-29 19:43:22,665 - StocksFromYahooClass - System exiting
-2018-03-29 19:44:31,521 - StocksFromYahooClass - Imported from another module
-2018-03-29 19:45:08,526 - StocksFromYahooClass - Imported from another module
-2018-03-29 19:45:48,468 - StocksFromYahooClass - Imported from another module
-2018-03-29 19:46:57,762 - StocksFromYahooClass - Imported from another module
-2018-03-29 19:53:02,003 - StocksFromYahooClass - Imported from another module
-2018-03-29 19:53:13,443 - StocksFromYahooClass - Imported from another module
-2018-03-29 19:53:54,843 - StocksFromYahooClass - Imported from another module
-2018-03-29 19:54:15,664 - StocksFromYahooClass - Imported from another module
-2018-03-29 19:54:42,063 - StocksFromYahooClass - Imported from another module
-2018-03-29 20:07:33,209 - StocksFromYahooClass - Imported from another module
-2018-03-29 20:08:08,126 - StocksFromYahooClass - Imported from another module
-2018-03-29 20:08:19,117 - StocksFromYahooClass - Imported from another module
-2018-03-29 20:09:20,462 - StocksFromYahooClass - Imported from another module
-2018-03-29 20:09:50,100 - StocksFromYahooClass - Imported from another module
-2018-03-29 20:10:29,165 - StocksFromYahooClass - Imported from another module
-2018-03-29 20:12:24,883 - StocksFromYahooClass - Imported from another module
-2018-03-29 20:16:02,635 - StocksFromYahooClass - Imported from another module
-2018-03-29 20:17:58,498 - StocksFromYahooClass - Imported from another module
-2018-03-29 20:18:28,024 - StocksFromYahooClass - Imported from another module
-2018-03-29 20:18:47,794 - StocksFromYahooClass - Imported from another module
-2018-03-29 20:19:34,794 - StocksFromYahooClass - Imported from another module
-2018-03-29 20:20:12,743 - StocksFromYahooClass - Imported from another module
-2018-03-29 20:20:45,545 - StocksFromYahooClass - Imported from another module
-2018-03-29 20:22:52,579 - StocksFromYahooClass - Imported from another module
-2018-03-29 20:23:04,853 - StocksFromYahooClass - Imported from another module
+
+2018-03-29 20:32:42,502 - StocksFromYahooClass - Start of main method
+2018-03-29 20:32:42,502 - StocksFromYahooClass - open_and_find_sources called
+2018-03-29 20:32:44,329 - StocksFromYahooClass - An exception of type ValueError occurred. Arguments:
+("invalid literal for int() with base 10: 'x'",)
+2018-03-29 21:00:31,467 - StocksFromYahooClass - Loaded properties into dictionary
+2018-03-29 21:11:13,979 - StocksFromYahooClass - Loaded properties into dictionary
+2018-03-29 21:14:14,599 - StocksFromYahooClass - Loaded properties into dictionary
+2018-03-29 21:16:53,533 - StocksFromYahooClass - Loaded properties into dictionary
+2018-03-29 21:20:50,653 - StocksFromYahooClass - Loaded properties into dictionary
+2018-03-29 21:26:44,475 - StocksFromYahooClass - Loaded properties into dictionary
+2018-03-29 21:26:44,637 - StocksFromYahooClass - Starting new HTTP connection (1): www.nasdaq.com
+2018-03-29 21:26:45,304 - StocksFromYahooClass - http://www.nasdaq.com:80 "GET /screening/companies-by-industry.aspx?exchange=NASDAQ&render=download HTTP/1.1" 301 0
+2018-03-29 21:26:45,313 - StocksFromYahooClass - Starting new HTTPS connection (1): www.nasdaq.com
+2018-03-29 21:26:46,738 - StocksFromYahooClass - https://www.nasdaq.com:443 "GET /screening/companies-by-industry.aspx?exchange=NASDAQ&render=download HTTP/1.1" 200 None
+2018-03-29 21:33:55,377 - StocksFromYahooClass - Loaded properties into dictionary
+2018-03-29 21:33:55,492 - StocksFromYahooClass - Starting new HTTP connection (1): www.nasdaq.com
+2018-03-29 21:33:55,636 - StocksFromYahooClass - http://www.nasdaq.com:80 "GET /screening/companies-by-industry.aspx?exchange=NASDAQ&render=download HTTP/1.1" 301 0
+2018-03-29 21:33:55,640 - StocksFromYahooClass - Starting new HTTPS connection (1): www.nasdaq.com
+2018-03-29 21:33:57,848 - StocksFromYahooClass - https://www.nasdaq.com:443 "GET /screening/companies-by-industry.aspx?exchange=NASDAQ&render=download HTTP/1.1" 200 None
+2018-03-29 21:34:16,220 - StocksFromYahooClass - Loaded properties into dictionary
+2018-03-29 21:34:16,351 - StocksFromYahooClass - Starting new HTTP connection (1): www.nasdaq.com
+2018-03-29 21:34:16,369 - StocksFromYahooClass - http://www.nasdaq.com:80 "GET /screening/companies-by-industry.aspx?exchange=NASDAQ&render=download HTTP/1.1" 301 0
+2018-03-29 21:34:16,376 - StocksFromYahooClass - Starting new HTTPS connection (1): www.nasdaq.com
+2018-03-29 21:34:18,070 - StocksFromYahooClass - https://www.nasdaq.com:443 "GET /screening/companies-by-industry.aspx?exchange=NASDAQ&render=download HTTP/1.1" 200 None
+2018-03-29 21:38:00,777 - StockScraper - Loaded properties into dictionary
+2018-03-29 21:40:06,271 - StockScraper - Loaded properties into dictionary
+2018-03-29 21:43:09,656 - StockScraper - Loaded properties into dictionary
+2018-03-29 21:45:15,506 - StockScraper - Loaded properties into dictionary
+2018-03-29 21:46:11,567 - StockScraper - Loaded properties into dictionary
+2018-03-29 21:47:06,664 - StockScraper - Loaded properties into dictionary
+2018-03-29 21:47:06,944 - StockScraper - Starting new HTTP connection (1): www.nasdaq.com
+2018-03-29 21:47:07,157 - StockScraper - http://www.nasdaq.com:80 "GET /screening/companies-by-industry.aspx?exchange=NASDAQ&render=download HTTP/1.1" 301 0
+2018-03-29 21:47:07,165 - StockScraper - Starting new HTTPS connection (1): www.nasdaq.com
+2018-03-29 21:47:08,504 - StockScraper - https://www.nasdaq.com:443 "GET /screening/companies-by-industry.aspx?exchange=NASDAQ&render=download HTTP/1.1" 200 None
+2018-03-29 21:48:51,133 - StockScraper - Loaded properties into dictionary
+2018-03-29 21:48:51,231 - StockScraper - Starting new HTTP connection (1): www.nasdaq.com
+2018-03-29 21:48:51,250 - StockScraper - http://www.nasdaq.com:80 "GET /screening/companies-by-industry.aspx?exchange=NASDAQ&render=download HTTP/1.1" 301 0
+2018-03-29 21:48:51,264 - StockScraper - Starting new HTTPS connection (1): www.nasdaq.com
+2018-03-29 21:48:53,053 - StockScraper - https://www.nasdaq.com:443 "GET /screening/companies-by-industry.aspx?exchange=NASDAQ&render=download HTTP/1.1" 200 None
+2018-03-29 21:50:12,041 - StockScraper - Loaded properties into dictionary
+2018-03-29 21:50:12,093 - StockScraper - Starting new HTTP connection (1): www.nasdaq.com
+2018-03-29 21:50:12,120 - StockScraper - http://www.nasdaq.com:80 "GET /screening/companies-by-industry.aspx?exchange=NASDAQ&render=download HTTP/1.1" 301 0
+2018-03-29 21:50:12,128 - StockScraper - Starting new HTTPS connection (1): www.nasdaq.com
+2018-03-29 21:50:21,206 - StockScraper - https://www.nasdaq.com:443 "GET /screening/companies-by-industry.aspx?exchange=NASDAQ&render=download HTTP/1.1" 200 None
+2018-03-29 21:50:39,487 - StockScraper - Loaded properties into dictionary
+2018-03-29 21:50:39,542 - StockScraper - Starting new HTTP connection (1): www.nasdaq.com
+2018-03-29 21:50:39,594 - StockScraper - http://www.nasdaq.com:80 "GET /screening/companies-by-industry.aspx?exchange=NASDAQ&render=download HTTP/1.1" 301 0
+2018-03-29 21:50:39,601 - StockScraper - Starting new HTTPS connection (1): www.nasdaq.com
+2018-03-29 21:50:41,312 - StockScraper - https://www.nasdaq.com:443 "GET /screening/companies-by-industry.aspx?exchange=NASDAQ&render=download HTTP/1.1" 200 None
+2018-03-29 21:52:05,909 - StockScraper - Loaded properties into dictionary
+2018-03-29 21:52:05,944 - StockScraper - Starting new HTTP connection (1): www.nasdaq.com
+2018-03-29 21:52:06,113 - StockScraper - http://www.nasdaq.com:80 "GET /screening/companies-by-industry.aspx?exchange=NASDAQ&render=download HTTP/1.1" 301 0
+2018-03-29 21:52:06,118 - StockScraper - Starting new HTTPS connection (1): www.nasdaq.com
+2018-03-29 21:52:07,828 - StockScraper - https://www.nasdaq.com:443 "GET /screening/companies-by-industry.aspx?exchange=NASDAQ&render=download HTTP/1.1" 200 None
+2018-03-29 21:52:39,749 - StockScraper - Loaded properties into dictionary
+2018-03-29 21:52:39,976 - StockScraper - Starting new HTTP connection (1): www.nasdaq.com
+2018-03-29 21:52:40,006 - StockScraper - http://www.nasdaq.com:80 "GET /screening/companies-by-industry.aspx?exchange=NASDAQ&render=download HTTP/1.1" 301 0
+2018-03-29 21:52:40,013 - StockScraper - Starting new HTTPS connection (1): www.nasdaq.com
+2018-03-29 21:52:41,123 - StockScraper - https://www.nasdaq.com:443 "GET /screening/companies-by-industry.aspx?exchange=NASDAQ&render=download HTTP/1.1" 200 None
+2018-03-29 21:53:32,897 - StockScraper - Loaded properties into dictionary
+2018-03-29 21:53:33,129 - StockScraper - Starting new HTTP connection (1): www.nasdaq.com
+2018-03-29 21:53:33,162 - StockScraper - http://www.nasdaq.com:80 "GET /screening/companies-by-industry.aspx?exchange=NASDAQ&render=download HTTP/1.1" 301 0
+2018-03-29 21:53:33,168 - StockScraper - Starting new HTTPS connection (1): www.nasdaq.com
+2018-03-29 21:53:34,323 - StockScraper - https://www.nasdaq.com:443 "GET /screening/companies-by-industry.aspx?exchange=NASDAQ&render=download HTTP/1.1" 200 None

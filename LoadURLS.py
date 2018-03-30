@@ -29,9 +29,12 @@ class StocksFromYahooNasdaqAndCrypto:
 					'\nPress 1 for main page\nPress 2 for history page\nPress 3 to add stock\nPress 0 to exit\nInput: '))
 				
 				stocks.choose_value(value_to_display)
-		except:
-			logging.error('Error in main')
-	
+				
+		except Exception as ex:
+			template = "An exception of type {0} occurred. Arguments:\n{1!r}"
+			message = template.format(type(ex).__name__, ex.args)
+			logging.error(message)
+			
 	def open_and_find_sources(self):
 		
 		try:
@@ -65,16 +68,24 @@ class StocksFromYahooNasdaqAndCrypto:
 	
 	def choose_value(self, x):
 		
-		if x == 1:
-			self.display_urls()
-		elif x == 2:
-			self.display_history_pages()
-		elif x == 3:
-			user_input = input('Type stock alias: ')
-			if not self.check_if_stock_in_file(user_input):
-				self.append_stock_to_textfile(user_input)
-		else:
-			logging.info('System exiting')
+		try:
+			if x == 1:
+				self.display_urls()
+			elif x == 2:
+				self.display_history_pages()
+			elif x == 3:
+				user_input = input('Type stock alias: ')
+				if not self.check_if_stock_in_file(user_input):
+					self.append_stock_to_textfile(user_input)
+			elif x == 0:
+				logging.info('System exiting')
+				sys.exit()
+			else:
+				raise ValueError
+				
+		except ValueError:
+			
+			logging.error('Not a valid entry')
 			sys.exit()
 	
 	def append_stock_to_textfile(self, name):
