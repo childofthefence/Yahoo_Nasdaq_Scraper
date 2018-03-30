@@ -63,3 +63,19 @@
 2018-03-29 21:53:33,162 - StockScraper - http://www.nasdaq.com:80 "GET /screening/companies-by-industry.aspx?exchange=NASDAQ&render=download HTTP/1.1" 301 0
 2018-03-29 21:53:33,168 - StockScraper - Starting new HTTPS connection (1): www.nasdaq.com
 2018-03-29 21:53:34,323 - StockScraper - https://www.nasdaq.com:443 "GET /screening/companies-by-industry.aspx?exchange=NASDAQ&render=download HTTP/1.1" 200 None
+2018-03-29 22:01:50,406 - StockScraper - Loaded properties into dictionary
+2018-03-29 22:01:50,455 - StockScraper - Starting new HTTP connection (1): www.nasdaq.com
+2018-03-29 22:01:50,477 - StockScraper - http://www.nasdaq.com:80 "GET /screening/companies-by-industry.aspx?exchange=NASDAQ&render=download HTTP/1.1" 301 0
+2018-03-29 22:01:50,485 - StockScraper - Starting new HTTPS connection (1): www.nasdaq.com
+2018-03-29 22:01:51,495 - StockScraper - https://www.nasdaq.com:443 "GET /screening/companies-by-industry.aspx?exchange=NASDAQ&render=download HTTP/1.1" 200 None
+2018-03-29 22:03:01,746 - StockScraper - Loaded properties into dictionary
+2018-03-29 22:03:02,875 - StockScraper - Starting new HTTP connection (1): www.nasdaq.com
+2018-03-29 22:03:03,162 - StockScraper - http://www.nasdaq.com:80 "GET /screening/companies-by-industry.aspx?exchange=NASDAQ&render=download HTTP/1.1" 301 0
+2018-03-29 22:03:03,166 - StockScraper - Starting new HTTPS connection (1): www.nasdaq.com
+2018-03-29 22:03:04,148 - StockScraper - https://www.nasdaq.com:443 "GET /screening/companies-by-industry.aspx?exchange=NASDAQ&render=download HTTP/1.1" 200 None
+2018-03-29 22:03:29,558 - StockScraper - Loaded properties into dictionary
+2018-03-29 22:03:29,687 - StockScraper - Starting new HTTP connection (1): www.nasdaq.com
+2018-03-29 22:03:29,843 - StockScraper - http://www.nasdaq.com:80 "GET /screening/companies-by-industry.aspx?exchange=NASDAQ&render=download HTTP/1.1" 301 0
+2018-03-29 22:03:29,864 - StockScraper - Starting new HTTPS connection (1): www.nasdaq.com
+2018-03-29 22:03:31,131 - StockScraper - https://www.nasdaq.com:443 "GET /screening/companies-by-industry.aspx?exchange=NASDAQ&render=download HTTP/1.1" 200 None
+2018-03-29 22:03:37,019 - StockScraper - After 8 PM and file doesn't exist, creating file

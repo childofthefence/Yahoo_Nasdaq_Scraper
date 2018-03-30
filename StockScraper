@@ -6,6 +6,8 @@ import logging
 import requests
 from sys import platform
 from datetime import datetime
+from pathlib import Path
+import time
 
 class StockScraper:
 
@@ -42,18 +44,23 @@ class StockScraper:
 	def connect_to_nasdaq(self):
 	
 		today = datetime.today()
+		now = datetime.now()
+		now_time = now.time()
 		url = self.config_dict['nasdaq_csv']
 		nasdaq_req = requests.get(url)
 		directory = self.create_save_directory()
 		open_location = directory + 'companylist' + str(datetime.today().strftime('%Y-%m-%d')) + '.csv'
 		
-		file = open(open_location, 'w+')
-		
-		for stuff in nasdaq_req.iter_content(10000):
-		
-			file.write(stuff.decode('UTF-8'))
+		if now_time.hour > 20 and not os.path.isfile(open_location):
+			logging.debug("After 8 PM and file doesn't exist, creating file")
 			
-		file.close()
+			file = open(open_location, 'w+')
+			
+			for stuff in nasdaq_req.iter_content(10000):
+			
+				file.write(stuff.decode('UTF-8'))
+				
+			file.close()
 	
 	#def input_stock_names_into_list(self):
 
