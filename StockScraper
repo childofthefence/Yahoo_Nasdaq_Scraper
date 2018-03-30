@@ -1,0 +1,42 @@
+#!/usr/bin/env python
+
+from LoadURLS import StocksFromYahooNasdaqAndCrypto
+import re
+import configparser
+import logging
+
+class StockScraper:
+
+	config = ''
+	config_dict = {}
+	
+	logging.basicConfig(
+		filename='YahooFinancialLog.log', level=logging.DEBUG,
+		format='%(asctime)s - StockScraper - %(message)s')
+	
+	def load_properties_from_section(self, values):
+	
+		self.config = configparser.ConfigParser()
+		self.config.read('nasdaqconfig.ini')
+		
+		try:
+			for sections in self.config.options(values):
+				self.config_dict[sections] = self.config.get(values, sections)
+				
+			print(self.config_dict['source_file'])
+				
+		except FileNotFoundError:
+			
+			logging.error('Config file does not exist')
+			
+		except KeyError:
+			
+			logging.error('Illegal key')
+			
+		except ValueError:
+			
+			logging.error('Value error')
+				
+		
+		
+StockScraper.load_properties_from_section(StockScraper(), 'Sources')

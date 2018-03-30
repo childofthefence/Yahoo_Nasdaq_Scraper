@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+import re
 import sys
 import logging
 
@@ -19,14 +20,17 @@ class StocksFromYahooNasdaqAndCrypto:
 	
 	def main(self):
 		
-		logging.debug('Start of main method')
-		while True:
-			stocks = StocksFromYahooNasdaqAndCrypto()
-			stocks.open_and_find_sources()
-			value_to_display = int(input(
-				'\nPress 1 for main page\nPress 2 for history page\nPress 3 to add stock\nPress 0 to exit\nInput: '))
-			
-			stocks.choose_value(value_to_display)
+		try:
+			logging.debug('Start of main method')
+			while True:
+				stocks = StocksFromYahooNasdaqAndCrypto()
+				stocks.open_and_find_sources()
+				value_to_display = int(input(
+					'\nPress 1 for main page\nPress 2 for history page\nPress 3 to add stock\nPress 0 to exit\nInput: '))
+				
+				stocks.choose_value(value_to_display)
+		except:
+			logging.error('Error in main')
 	
 	def open_and_find_sources(self):
 		
@@ -98,6 +102,3 @@ class StocksFromYahooNasdaqAndCrypto:
 if __name__ == '__main__':
 	
 	StocksFromYahooNasdaqAndCrypto.main(StocksFromYahooNasdaqAndCrypto())
-else:
-	
-	logging.debug('Imported from another module')

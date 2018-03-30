@@ -4,3 +4,37 @@
 2018-03-29 19:13:59,402 -StocksFromYahooClass-open_and_find_sources called
 2018-03-29 19:14:05,577 -StocksFromYahooClass-display_history_pages called
 2018-03-29 19:14:05,577 -StocksFromYahooClass-open_and_find_sources called
+2018-03-29 19:36:46,441 - StocksFromYahooClass - Start of main method
+2018-03-29 19:36:46,445 - StocksFromYahooClass - open_and_find_sources called
+2018-03-29 19:43:03,908 - StocksFromYahooClass - Start of main method
+2018-03-29 19:43:03,915 - StocksFromYahooClass - open_and_find_sources called
+2018-03-29 19:43:06,586 - StocksFromYahooClass - display_urls called
+2018-03-29 19:43:06,587 - StocksFromYahooClass - open_and_find_sources called
+2018-03-29 19:43:14,295 - StocksFromYahooClass - display_history_pages called
+2018-03-29 19:43:14,295 - StocksFromYahooClass - open_and_find_sources called
+2018-03-29 19:43:22,665 - StocksFromYahooClass - System exiting
+2018-03-29 19:44:31,521 - StocksFromYahooClass - Imported from another module
+2018-03-29 19:45:08,526 - StocksFromYahooClass - Imported from another module
+2018-03-29 19:45:48,468 - StocksFromYahooClass - Imported from another module
+2018-03-29 19:46:57,762 - StocksFromYahooClass - Imported from another module
+2018-03-29 19:53:02,003 - StocksFromYahooClass - Imported from another module
+2018-03-29 19:53:13,443 - StocksFromYahooClass - Imported from another module
+2018-03-29 19:53:54,843 - StocksFromYahooClass - Imported from another module
+2018-03-29 19:54:15,664 - StocksFromYahooClass - Imported from another module
+2018-03-29 19:54:42,063 - StocksFromYahooClass - Imported from another module
+2018-03-29 20:07:33,209 - StocksFromYahooClass - Imported from another module
+2018-03-29 20:08:08,126 - StocksFromYahooClass - Imported from another module
+2018-03-29 20:08:19,117 - StocksFromYahooClass - Imported from another module
+2018-03-29 20:09:20,462 - StocksFromYahooClass - Imported from another module
+2018-03-29 20:09:50,100 - StocksFromYahooClass - Imported from another module
+2018-03-29 20:10:29,165 - StocksFromYahooClass - Imported from another module
+2018-03-29 20:12:24,883 - StocksFromYahooClass - Imported from another module
+2018-03-29 20:16:02,635 - StocksFromYahooClass - Imported from another module
+2018-03-29 20:17:58,498 - StocksFromYahooClass - Imported from another module
+2018-03-29 20:18:28,024 - StocksFromYahooClass - Imported from another module
+2018-03-29 20:18:47,794 - StocksFromYahooClass - Imported from another module
+2018-03-29 20:19:34,794 - StocksFromYahooClass - Imported from another module
+2018-03-29 20:20:12,743 - StocksFromYahooClass - Imported from another module
+2018-03-29 20:20:45,545 - StocksFromYahooClass - Imported from another module
+2018-03-29 20:22:52,579 - StocksFromYahooClass - Imported from another module
+2018-03-29 20:23:04,853 - StocksFromYahooClass - Imported from another module
