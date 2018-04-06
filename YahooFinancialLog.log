@@ -79,3 +79,34 @@
 2018-03-29 22:03:29,864 - StockScraper - Starting new HTTPS connection (1): www.nasdaq.com
 2018-03-29 22:03:31,131 - StockScraper - https://www.nasdaq.com:443 "GET /screening/companies-by-industry.aspx?exchange=NASDAQ&render=download HTTP/1.1" 200 None
 2018-03-29 22:03:37,019 - StockScraper - After 8 PM and file doesn't exist, creating file
+2018-03-30 16:40:31,808 - StockScraper - Loaded properties into dictionary
+2018-03-30 16:46:41,710 - StockScraper - Loaded properties into dictionary
+2018-03-30 16:47:20,309 - StockScraper - Loaded properties into dictionary
+2018-03-31 15:25:19,006 - StockScraper - Loaded properties into dictionary
+2018-04-05 17:18:16,744 - StockScraper - Loaded properties into dictionary
+2018-04-05 17:18:39,056 - StockScraper - Loaded properties into dictionary
+2018-04-05 17:19:33,383 - StockScraper - Loaded properties into dictionary
+2018-04-05 17:20:34,043 - StockScraper - Loaded properties into dictionary
+2018-04-05 17:22:05,808 - StockScraper - Loaded properties into dictionary
+2018-04-05 17:22:17,776 - StockScraper - Loaded properties into dictionary
+2018-04-05 17:22:19,251 - StockScraper - Market closed today
+2018-04-05 17:22:19,251 - StockScraper - After 8 PM and file doesn't exist, markets open today, creating file
+2018-04-05 18:47:41,119 - StockScraper - Loaded properties into dictionary
+
+2018-04-06 15:03:43,240 - StockScraper - Loaded properties into dictionary
+2018-04-06 15:04:14,876 - StockScraper - Loaded properties into dictionary
+2018-04-06 15:04:15,831 - StockScraper - After 8 PM and file doesn't exist, markets open today, creating file
+2018-04-06 15:04:32,770 - StockScraper - Loaded properties into dictionary
+2018-04-06 15:04:33,752 - StockScraper - After 8 PM and file doesn't exist, markets open today, creating file
+2018-04-06 15:04:57,732 - StockScraper - Loaded properties into dictionary
+2018-04-06 15:04:58,601 - StockScraper - After 8 PM and file doesn't exist, markets open today, creating file
+2018-04-06 15:36:20,154 - StockScraper - Loaded properties into dictionary
+2018-04-06 15:36:21,237 - StockScraper - After 8 PM and file doesn't exist, markets open today, creating file
+2018-04-06 15:37:16,391 - StockScraper - Loaded properties into dictionary
+2018-04-06 15:37:17,949 - StockScraper - After 8 PM and file doesn't exist, markets open today, creating file
+2018-04-06 15:39:10,688 - StockScraper - Loaded properties into dictionary
+2018-04-06 15:39:52,586 - StockScraper - Loaded properties into dictionary
+2018-04-06 15:39:53,576 - StockScraper - After 8 PM and file doesn't exist, markets open today, creating file
+2018-04-06 15:42:31,758 - StockScraper - Loaded properties into dictionary
+2018-04-06 15:42:48,710 - StockScraper - Loaded properties into dictionary
+2018-04-06 15:42:49,807 - StockScraper - After 8 PM and file doesn't exist, markets open today, creating file
