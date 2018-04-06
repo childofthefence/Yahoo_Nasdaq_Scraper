@@ -51,8 +51,8 @@ class StockScraper:
 		directory = self.create_save_directory()
 		open_location = directory + 'companylist' + str(datetime.today().strftime('%Y-%m-%d')) + '.csv'
 		
-		if now_time.hour >= 12 and not os.path.isfile(open_location) and not self.check_if_market_closed(today):
-			logging.debug("After 8 PM and file doesn't exist, markets open today, creating file")
+		if now_time.hour >= 16 and not os.path.isfile(open_location) and not self.check_if_market_closed(today):
+			logging.debug("After 4 PM (Nasdaq close) and file doesn't exist, markets open today, creating file")
 			
 			csv_data = nasdaq_req.read()
 			
